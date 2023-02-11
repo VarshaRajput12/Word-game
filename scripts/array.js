@@ -80,7 +80,7 @@ const wordList = [
     hint: "People sit on me",
   },
   {
-    word: "diver",
+    word: "driver",
     hint: "Person who ride vehicles",
   },
   {

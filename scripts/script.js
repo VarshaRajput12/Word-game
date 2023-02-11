@@ -57,6 +57,7 @@ function initGame(e) {
       alert(`Congrat🎊🎉! you found the word "${word.toUpperCase()}"`);
       randomWord();
     } else if (maxGuesses === 0) {
+      // setTimeout(())
       alert("Game over! You don't have remaining guesses");
       for (let i = 0; i < word.length; i++) {
         inputs.querySelectorAll("input")[i].value = word[i];
