@@ -117,7 +117,7 @@ const wordList = [
   },
   {
     word: "pacific",
-    hint: "Lagest ocean in the world",
+    hint: "Largest ocean in the world",
   },
   {
     word: "holi",
@@ -141,7 +141,7 @@ const wordList = [
   },
   {
     word: "five",
-    hint: "Number of sense orgens",
+    hint: "Number of sense organs",
   },
   {
     word: "eyes",
@@ -160,8 +160,20 @@ const wordList = [
     hint: "Largest planet of our solar system",
   },
   {
+    word: "sahara",
+    hint: "Largest desert in the world",
+  },
+  {
     word: "sun",
     hint: "Main source of energy for the Earth",
+  },
+  {
+    word: "russia",
+    hint: "Largest country in the world",
+  },
+  {
+    word: "rafflesia",
+    hint: "Largest flower in the world",
   },
   {
     word: "mercury",
@@ -229,10 +241,26 @@ const wordList = [
   },
   {
     word: "nile",
-    hint: "The longest river on the earth",
+    hint: "The longest river on the world",
   },
   {
     word: "cricket",
     hint: "The game which is played with bat, ball",
+  },
+  {
+    word: "ice hockey",
+    hint: "National game of Canada",
+  },
+  {
+    word: "baseball",
+    hint: "National game of USA",
+  },
+  {
+    word: "taekwondo",
+    hint: "National game of Korea",
+  },
+  {
+    word: "rugby",
+    hint: "National game of New Zealand",
   },
 ];

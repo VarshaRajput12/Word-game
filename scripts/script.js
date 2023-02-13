@@ -4,6 +4,8 @@ const hint = document.querySelector(".hint span");
 const guessLeft = document.querySelector(".guess_left span");
 const wrongLetters = document.querySelector(".wrong_letters span");
 const typingInput = document.querySelector(".typing_input");
+// const congratsMsg = document.querySelector(".congrats");
+
 let word,
   maxGuesses,
   correct = [],
@@ -29,7 +31,7 @@ randomWord();
 resetBtn.addEventListener("click", randomWord);
 
 function initGame(e) {
-  let key = e.target.value;
+  let key = e.target.value.toLowerCase();
   if (
     key.match(/^[A-Za-z]+$/) &&
     !incorrect.includes(`  ${key.toUpperCase()}`) &&
@@ -54,6 +56,7 @@ function initGame(e) {
   typingInput.value = "";
   setTimeout(()=>{
     if (correct.length === word.length) {
+      // congratsMsg.innerHTML = `congrats🎊🎉 you found the ${word.toUpperCase()}`;
       alert(`Congrat🎊🎉! you found the word "${word.toUpperCase()}"`);
       randomWord();
     } else if (maxGuesses === 0) {
